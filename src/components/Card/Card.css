@@ -3,6 +3,27 @@
     position: sticky;
     top: 0;
 }
+.choosed-product-info {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.img-box {
+    width: 45px;
+    height: 45px;
+    background-color: rgba(216, 216, 216);
+    display: flex;
+    border-radius: 50%;
+}
+.choosed-product-info img {
+    width: 33px;
+    height: 33px;
+    margin: auto;
+    border-radius: 8px;
+}
+.choosed-product-info h5 {
+    font-size: 17px;
+}
 .btn-choose {
     background-color: #af47ec;
     border: 1px solid #af47ec;
