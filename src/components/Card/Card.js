@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import './Card.css';
 
-const Card = ({ choosedProducts }) => {
+const Card = ({ choosedProducts, clearProducts }) => {
     return (
         <div className='shadow-lg px-3 py-5 rounded-3 card-item'>
             <h4 className='mb-3'>Selected Items</h4>
@@ -15,7 +15,7 @@ const Card = ({ choosedProducts }) => {
             }
             <button className='btn btn-primary my-2 btn-choose'>Choose 1 for me</button>
             <br />
-            <button className='btn btn-primary btn-again'>Choose again</button>
+            <button onClick={clearProducts} className='btn btn-primary btn-again'>Choose again</button>
         </div>
     );
 };

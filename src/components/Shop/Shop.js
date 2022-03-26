@@ -24,6 +24,10 @@ const Shop = () => {
             setChoosedProducts(addedProducts);
         }
     }
+
+    const clearProducts = () => {
+        setChoosedProducts([]);
+    }
     return (
         <div className='row container mx-auto p-0 mt-5'>
             <div className="col-8">
@@ -34,6 +38,7 @@ const Shop = () => {
             </div>
             <div className="col-4">
                 <Card
+                    clearProducts={clearProducts}
                     choosedProducts={choosedProducts}
                 ></Card>
             </div>
