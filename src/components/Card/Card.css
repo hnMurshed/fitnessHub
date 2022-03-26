@@ -24,6 +24,9 @@
 .choosed-product-info h5 {
     font-size: 17px;
 }
+.trash-icon {
+    cursor: pointer;
+}
 .btn-choose {
     background-color: #af47ec;
     border: 1px solid #af47ec;

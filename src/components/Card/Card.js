@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import './Card.css';
 
-const Card = ({ choosedProducts, clearProducts }) => {
+const Card = ({ choosedProducts, clearProducts, trashProduct }) => {
     return (
         <div className='shadow-lg px-3 py-5 rounded-3 card-item'>
             <h4 className='mb-3'>Selected Items</h4>
@@ -11,6 +11,7 @@ const Card = ({ choosedProducts, clearProducts }) => {
                 choosedProducts.map(choosedProduct => <ChoosedProductInfo
                     key={choosedProduct.id}
                     choosedProduct={choosedProduct}
+                    trashProduct={trashProduct}
                 ></ChoosedProductInfo>)
             }
             <button className='btn btn-primary my-2 btn-choose'>Choose 1 for me</button>
@@ -20,7 +21,7 @@ const Card = ({ choosedProducts, clearProducts }) => {
     );
 };
 
-const ChoosedProductInfo = ({ choosedProduct }) => {
+const ChoosedProductInfo = ({ choosedProduct, trashProduct }) => {
     const { img, name } = choosedProduct;
     return (
         <div className='choosed-product-info my-2 p-2 rounded-pill'>
@@ -28,7 +29,11 @@ const ChoosedProductInfo = ({ choosedProduct }) => {
                 <img src={img} alt={name} />
             </div>
             <h5>{name}</h5>
-            <FontAwesomeIcon icon={faTrash} className="ms-auto me-3"></FontAwesomeIcon>
+            <FontAwesomeIcon
+                icon={faTrash}
+                onClick={() => trashProduct(choosedProduct)}
+                className="trash-icon ms-auto me-3"
+            ></FontAwesomeIcon>
         </div>
     )
 }

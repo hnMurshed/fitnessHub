@@ -28,6 +28,11 @@ const Shop = () => {
     const clearProducts = () => {
         setChoosedProducts([]);
     }
+
+    const trashProduct = trashedProduct => {
+        const restProducts = choosedProducts.filter(product => product !== trashedProduct);
+        setChoosedProducts(restProducts);
+    }
     return (
         <div className='row container mx-auto p-0 mt-5'>
             <div className="col-8">
@@ -38,6 +43,7 @@ const Shop = () => {
             </div>
             <div className="col-4">
                 <Card
+                    trashProduct={trashProduct}
                     clearProducts={clearProducts}
                     choosedProducts={choosedProducts}
                 ></Card>
