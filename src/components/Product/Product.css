@@ -6,4 +6,8 @@
     padding: 12px 0;
     border: none;
     border-top: 1px solid #95A0A7;
+    transition: 0.5s;
+}
+.add-to-card:hover {
+    background-color: orange;
 }

@@ -1,0 +1,13 @@
+.card-item {
+    background-color: rgba(216, 216, 216, 0.5);
+    position: sticky;
+    top: 0;
+}
+.btn-choose {
+    background-color: #af47ec;
+    border: 1px solid #af47ec;
+}
+.btn-again {
+    padding-left: 22px;
+    padding-right: 22px;
+}
