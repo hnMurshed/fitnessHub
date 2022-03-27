@@ -48,14 +48,14 @@ const Shop = () => {
         setChoosedProducts(restProducts);
     }
     return (
-        <div className='row container mx-auto p-0 mt-5'>
-            <div className="col-8">
+        <div className='shop-container row container mx-auto p-0 mt-5 flex-row-reverse flex-md-row '>
+            <div className="col-12 col-md-8">
                 <Products
                     products={products}
                     getChoosedProducts={getChoosedProducts}
                 ></Products>
             </div>
-            <div className="col-4">
+            <div className="col-12 col-md-4">
                 <Card
                     chooseOne={chooseOne}
                     trashProduct={trashProduct}
