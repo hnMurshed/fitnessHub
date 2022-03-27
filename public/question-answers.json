@@ -1,0 +1,26 @@
+[
+    {
+        "id": "headingOne",
+        "collapseItem": "collapseOne",
+        "dataBsTarget": "#collapseOne",
+        "className": "accordion-collapse collapse show",
+        "question": "How react works?",
+        "answer": "React does not modify whole things of an application one by one if there are multiple state changes. Rather than It React uses Virtual DOM that compares the previous states and updates only the items in the Real DOM that were changed, instead of updating all of the components again. In easy words, react modifies only the state that is requested."
+      },
+      {
+        "id": "headingTwo",
+        "collapseItem": "collapseTwo",
+        "dataBsTarget": "#collapseTwo",
+        "className": "accordion-collapse collapse",
+        "question": "What is the difference between props and state?",
+        "answer": "1. Props are used to pass data from one component to another. Whereas, the state is used inside a component. Props are read only, immutable, and can not be modified. 2. State is asynchronous, mutable, can be modified using using setState function. 3. Props are used to communicate between components. State is used for rendering dynamic changes with the components."
+      },
+      {
+        "id": "headingThree",
+        "collapseItem": "collapseThree",
+        "dataBsTarget": "#collapseThree",
+        "className": "accordion-collapse collapse",
+        "question": "How useState works?",
+        "answer": "The useState() is a hook that returns an array of a variable and a function. The variable sets an initial state to a component, that you pass. And the function sets new value to the component's state updating the initial state."
+      }
+]

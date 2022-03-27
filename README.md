@@ -1,6 +1,8 @@
-# Welcome to FitnessHub
+# Welcome to [FitnessHub](https://fitnesshubb.netlify.app/)
 
 Get your required fitness equipment from [FitnessHub](https://fitnesshubb.netlify.app/)
+
+#https://fitnesshubb.netlify.app/
 
 # Getting Started with Create React App
 
