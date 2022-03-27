@@ -13,6 +13,8 @@ const Shop = () => {
     }, [])
 
     const getChoosedProducts = (product) => {
+        document.getElementById('grab-btn').style.display = 'none';
+        
         if (choosedProducts.includes(product)) {
             console.log('already exist');
         }
@@ -24,13 +26,16 @@ const Shop = () => {
             setChoosedProducts(addedProducts);
         }
     }
-
+    
     const chooseOne = () => {
+        
         // let choosedProductForMe;
         const randomNumber = Math.floor(Math.random() * choosedProducts.length);
         const productChoosed = choosedProducts.find(product => choosedProducts.indexOf(product) === randomNumber);
         // choosedProductForMe = productChoosed;
         setChoosedProducts([productChoosed]);
+
+        document.getElementById('grab-btn').style.display = 'block';
         
         return (
             <div>

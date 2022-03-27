@@ -27,6 +27,17 @@
 .trash-icon {
     cursor: pointer;
 }
+#grab-btn {
+    display: none;
+    background-color: deeppink;
+    color: white;
+    letter-spacing: 0.3px;
+    border: 2px solid deeppink;
+}
+#grab-btn:hover {
+    background-color: transparent;
+    color: rgb(255, 32, 151);
+}
 .btn-choose {
     color: white;
     border: 1px solid white;
