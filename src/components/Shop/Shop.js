@@ -25,6 +25,20 @@ const Shop = () => {
         }
     }
 
+    const chooseOne = () => {
+        // let choosedProductForMe;
+        const randomNumber = Math.floor(Math.random() * choosedProducts.length);
+        const productChoosed = choosedProducts.find(product => choosedProducts.indexOf(product) === randomNumber);
+        // choosedProductForMe = productChoosed;
+        setChoosedProducts([productChoosed]);
+        
+        return (
+            <div>
+                <button className='btn btn-danger'>Buy Now</button>
+            </div>
+        )
+    }
+
     const clearProducts = () => {
         setChoosedProducts([]);
     }
@@ -43,6 +57,7 @@ const Shop = () => {
             </div>
             <div className="col-4">
                 <Card
+                    chooseOne={chooseOne}
                     trashProduct={trashProduct}
                     clearProducts={clearProducts}
                     choosedProducts={choosedProducts}

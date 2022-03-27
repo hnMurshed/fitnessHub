@@ -3,60 +3,70 @@
     "id": 1,
     "name": "Massage Body Cups",
     "price": 420,
-    "img": "https://ae01.alicdn.com/kf/Had794ddc5f1846b7a7a7bcb82e1517d92/Electric-Vacuum-Cupping-Massage-Body-Cups-Anti-Cellulite-Therapy-Massager-for-Body-Electric-Guasha-Scraping-Fat.jpg_Q90.jpg_.webp"
+    "img": "https://ae01.alicdn.com/kf/Had794ddc5f1846b7a7a7bcb82e1517d92/Electric-Vacuum-Cupping-Massage-Body-Cups-Anti-Cellulite-Therapy-Massager-for-Body-Electric-Guasha-Scraping-Fat.jpg_Q90.jpg_.webp",
+    "buy": "Buy Now"
   },
   {
     "id": 2,
     "name": "Thigh Exerciser",
     "price": 20,
-    "img": "https://ae01.alicdn.com/kf/S85392e81a3cf4009bc067c1c8fae1799t/Slim-Leg-Feet-Thigh-Exerciser-Muscle-training-Chest-Waist-Yoga-Fitness-Equipment.jpg_Q90.jpg_.webp"
+    "img": "https://ae01.alicdn.com/kf/S85392e81a3cf4009bc067c1c8fae1799t/Slim-Leg-Feet-Thigh-Exerciser-Muscle-training-Chest-Waist-Yoga-Fitness-Equipment.jpg_Q90.jpg_.webp",
+    "buy": "Buy Now"
   },
   {
     "id": 3,
     "name": "Rasistant Band",
     "price": 120,
-    "img": "https://ae01.alicdn.com/kf/Hd9c8ca92cd9f4edfbf0ff164196d4053t/Training-Fitness-Gum-Exercise-Gym-Strength-Resistance-Bands-Pilates-Sport-Rubber-Fitness-Mini-Bands-Crossfit-Workout.jpg_Q90.jpg_.webp"
+    "img": "https://ae01.alicdn.com/kf/Hd9c8ca92cd9f4edfbf0ff164196d4053t/Training-Fitness-Gum-Exercise-Gym-Strength-Resistance-Bands-Pilates-Sport-Rubber-Fitness-Mini-Bands-Crossfit-Workout.jpg_Q90.jpg_.webp",
+    "buy": "Buy Now"
   },
   {
     "id": 4,
     "name": "Woman Rasistant Band",
     "price": 80,
-    "img": "https://ae01.alicdn.com/kf/S7598e3cf52e94839ab979a1495c3eae7G/Portable-Fitness-Workout-Equipment-Rubber-Resistance-Bands-Yoga-Gym-Elastic-Gum-Strength-Pilates-Crossfit-Women-Weight.jpg_Q90.jpg_.webp"
+    "img": "https://ae01.alicdn.com/kf/S7598e3cf52e94839ab979a1495c3eae7G/Portable-Fitness-Workout-Equipment-Rubber-Resistance-Bands-Yoga-Gym-Elastic-Gum-Strength-Pilates-Crossfit-Women-Weight.jpg_Q90.jpg_.webp",
+    "buy": "Buy Now"
   },
   {
     "id": 5,
     "name": "Muscle Stimulator",
     "price": 180,
-    "img": "https://ae01.alicdn.com/kf/HTB1J5pGXLxj_uVjSZFqq6yboFXaO/Smart-Abdominal-Muscle-Stimulator-Training-EMS-Abs-Trainer-Home-Gym-Trainer-Fitness-Gear-Equipment-Stimulator-Muscle.jpg_Q90.jpg_.webp"
+    "img": "https://ae01.alicdn.com/kf/HTB1J5pGXLxj_uVjSZFqq6yboFXaO/Smart-Abdominal-Muscle-Stimulator-Training-EMS-Abs-Trainer-Home-Gym-Trainer-Fitness-Gear-Equipment-Stimulator-Muscle.jpg_Q90.jpg_.webp",
+    "buy": "Buy Now"
   },
   {
     "id": 6,
     "name": "Speed Jump Rope",
     "price": 50,
-    "img": "https://ae01.alicdn.com/kf/S40ee132076b84ee7be2f74e1a2230aca6/Speed-Jump-Rope-Crossfit-Professional-Men-Women-Gym-PVC-Skipping-Rope-Adjustable-Fitness-Equipment-Muscle-Boxing.jpg_Q90.jpg_.webp"
+    "img": "https://ae01.alicdn.com/kf/S40ee132076b84ee7be2f74e1a2230aca6/Speed-Jump-Rope-Crossfit-Professional-Men-Women-Gym-PVC-Skipping-Rope-Adjustable-Fitness-Equipment-Muscle-Boxing.jpg_Q90.jpg_.webp",
+    "buy": "Buy Now"
   },
   {
     "id": 7,
     "name": "Fitness Resistance Bands",
     "price": 50,
-    "img": "https://ae01.alicdn.com/kf/H50e997fdbb914f098366507fd81f8732c/Resistance-Bands-Exercise-Elastic-Natural-latex-Workout-Ruber-Loop-Strength-rubber-band-for-Fitness-Equipment-Training.jpg_Q90.jpg_.webp"
+    "img": "https://ae01.alicdn.com/kf/H50e997fdbb914f098366507fd81f8732c/Resistance-Bands-Exercise-Elastic-Natural-latex-Workout-Ruber-Loop-Strength-rubber-band-for-Fitness-Equipment-Training.jpg_Q90.jpg_.webp",
+    "buy": "Buy Now"
   },
   {
     "id": 8,
     "name": "Smart Bracelet",
     "price": 150,
-    "img": "https://ae01.alicdn.com/kf/UTB8lU0dhmbIXKJkSaefq6yasXXaw/Smart-Bracelet-Portable-Waterproof-Sport-Fitness-Tracker-Pedometer-Calorry-Computing-Smart-Watch-With-LCD-Display-Screen.jpg_Q90.jpg_.webp"
+    "img": "https://ae01.alicdn.com/kf/UTB8lU0dhmbIXKJkSaefq6yasXXaw/Smart-Bracelet-Portable-Waterproof-Sport-Fitness-Tracker-Pedometer-Calorry-Computing-Smart-Watch-With-LCD-Display-Screen.jpg_Q90.jpg_.webp",
+    "buy": "Buy Now"
   },
   {
     "id": 9,
     "name": "Smart Hoola Hoop",
     "price": 170,
-    "img": "https://ae01.alicdn.com/kf/Hc68077fb3a334c1189b0636b596a04baA/Smart-Sport-Weighted-Hoola-Hoop-Detachable-Auto-Spinning-Circle-Thin-Waist-Adjustable-Abdominal-Exercise-Gym-Fitness.jpg_Q90.jpg_.webp"
+    "img": "https://ae01.alicdn.com/kf/Hc68077fb3a334c1189b0636b596a04baA/Smart-Sport-Weighted-Hoola-Hoop-Detachable-Auto-Spinning-Circle-Thin-Waist-Adjustable-Abdominal-Exercise-Gym-Fitness.jpg_Q90.jpg_.webp",
+    "buy": "Buy Now"
   },
   {
     "id": 10,
     "name": "Massager Gun",
     "price": 270,
-    "img": "https://ae01.alicdn.com/kf/Ha746510c16774002af1a5252a1c461a7r/Massager-Gun-Deep-Muscle-Stimulator-Massage-Relaxation-Antistress-Body-Fitness-Decompose-Lactic-Acid-Relief-Muscle-Massage.jpg_Q90.jpg_.webp"
+    "img": "https://ae01.alicdn.com/kf/Ha746510c16774002af1a5252a1c461a7r/Massager-Gun-Deep-Muscle-Stimulator-Massage-Relaxation-Antistress-Body-Fitness-Decompose-Lactic-Acid-Relief-Muscle-Massage.jpg_Q90.jpg_.webp",
+    "buy": "Buy Now"
   }
 ]
