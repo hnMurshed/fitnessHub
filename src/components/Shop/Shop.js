@@ -14,12 +14,12 @@ const Shop = () => {
 
     const getChoosedProducts = (product) => {
         document.getElementById('grab-btn').style.display = 'none';
-        
+
         if (choosedProducts.includes(product)) {
-            console.log('already exist');
+            alert('already exist');
         }
         else if (choosedProducts.length === 4) {
-            console.log("you can't choose over 4");
+            alert("you can't choose over 4");
         }
         else {
             const addedProducts = [...choosedProducts, product];
