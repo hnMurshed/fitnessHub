@@ -6,7 +6,7 @@ import './Card.css';
 const Card = ({ choosedProducts, clearProducts, trashProduct, chooseOne }) => {
     return (
         <div className='shadow-lg px-3 py-5 rounded-3 card-item'>
-            <h4 className='mb-3'>Selected Items</h4>
+            <h4 className='mb-3 text-white'>Selected Items</h4>
             {
                 choosedProducts.map(choosedProduct => <ChoosedProductInfo
                     key={choosedProduct.id}
@@ -14,7 +14,7 @@ const Card = ({ choosedProducts, clearProducts, trashProduct, chooseOne }) => {
                     trashProduct={trashProduct}
                 ></ChoosedProductInfo>)
             }
-            <button onClick={chooseOne} className='btn btn-primary my-2 btn-choose'>Choose 1 for me</button>
+            <button onClick={chooseOne} className='btn btn-outline-warning my-2 btn-choose'>Choose 1 for me</button>
             <br />
             <button onClick={clearProducts} className='btn btn-primary btn-again'>Choose again</button>
         </div>

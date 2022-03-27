@@ -1,5 +1,5 @@
 .card-item {
-    background-color: rgba(216, 216, 216, 0.5);
+    background-color: rgba(175, 71, 236, 0.555);
     position: sticky;
     top: 0;
 }
@@ -28,8 +28,8 @@
     cursor: pointer;
 }
 .btn-choose {
-    background-color: #af47ec;
-    border: 1px solid #af47ec;
+    color: white;
+    border: 1px solid white;
 }
 .btn-again {
     padding-left: 22px;
